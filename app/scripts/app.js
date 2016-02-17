@@ -2,8 +2,6 @@ $(document).ready(function() {
   //ALL CODE GOES IN HERE
   $('#newTaskForm').hide();
 
-myStorage = localStorage;
-
   var listo = [];
 
   var advanceTask = function(task) {
@@ -71,16 +69,8 @@ $(document).on('click', '#archived', function (e) {
   e.preventDefault();
   var task = this;
   advanceTask(task);
-});
-
-
-
-
-
-
-
-
-
+	
+	});
 
 });
 
